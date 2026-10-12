@@ -1,5 +1,10 @@
-import FP.IEEE.Projection
-import FP.IEEE.Environment
+module
+
+public import FP.IEEE.Projection
+public import FP.IEEE.Environment
+
+@[expose] public section
+
 
 /-! Real-valued contract for nearest-even rounding of a finite exact input.
 The contract specifies the finite projection, signed overflow/zero results,

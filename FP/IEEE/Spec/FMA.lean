@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.MixedArithmetic
+module
+
+public import FP.IEEE.Spec.MixedArithmetic
+
+@[expose] public section
+
 
 /-! Fused multiply-add: exact multiplication and addition followed by one rounding.
 The binding raises invalid for zero times infinity even with a quiet-NaN addend. -/

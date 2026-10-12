@@ -1,5 +1,10 @@
-import FP.IEEE.Software.CompensatedDotRange
-import Mathlib.Data.List.OfFn
+module
+
+public import FP.IEEE.Software.CompensatedDotRange
+public import Mathlib.Data.List.OfFn
+
+@[expose] public section
+
 
 /-! Paired-list interfaces, with no truncation or inspected out-of-range inputs. -/
 set_option backward.isDefEq.respectTransparency false

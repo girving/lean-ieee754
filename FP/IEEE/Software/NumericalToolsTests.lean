@@ -1,7 +1,12 @@
-import FP.IEEE.Software.Neighbors
-import FP.IEEE.Software.Scaling
-import FP.IEEE.Software.Intervals
-import FP.IEEE.Software.ProductResidual
+module
+
+public import FP.IEEE.Software.Neighbors
+public import FP.IEEE.Software.Scaling
+public import FP.IEEE.Software.Intervals
+public import FP.IEEE.Software.ProductResidual
+
+section
+
 
 /-! Kernel regressions and complete numerical certificates for the analysis toolbelt. -/
 set_option backward.isDefEq.respectTransparency false

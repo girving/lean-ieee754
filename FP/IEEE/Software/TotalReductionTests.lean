@@ -1,4 +1,9 @@
-import FP.IEEE.Software.TotalReductionBounds
+module
+
+public import FP.IEEE.Software.TotalReductionBounds
+
+section
+
 
 /-! Kernel checks on actual total reductions, plus a certificate-to-bound example. -/
 set_option backward.isDefEq.respectTransparency false

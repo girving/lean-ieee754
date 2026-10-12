@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.RealRounding
+module
+
+public import FP.IEEE.Spec.RealRounding
+
+@[expose] public section
+
 
 /-! Directed rounding is extremal over the whole finite value set. -/
 namespace FP.IEEE.Spec

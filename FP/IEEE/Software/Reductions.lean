@@ -1,7 +1,12 @@
-import FP.IEEE.Software.ScaledRound
-import FP.IEEE.Summation
-import FP.IEEE.MixedDot
-import FP.Range.Checker
+module
+
+public import FP.IEEE.Software.ScaledRound
+public import FP.IEEE.Summation
+public import FP.IEEE.MixedDot
+public import FP.Range.Checker
+
+@[expose] public section
+
 
 /-! Executable nearest-even reductions and refinement to the IEEE finite-value
 specification. These proofs do not import or assume a native Float model bridge.
@@ -10,7 +15,7 @@ result encodings or exception traces. -/
 namespace FP.IEEE.Software
 open scoped BigOperators
 
-private def addResults (F : Format) (a b : Option ℚ) : Option ℚ := do
+def addResults (F : Format) (a b : Option ℚ) : Option ℚ := do
   let x ← a
   let y ← b
   roundNearest? F (x + y)
@@ -169,7 +174,7 @@ def wordSequentialSum? (I : Interchange) (a : ℕ → I.Word) (n : ℕ) : Option
 def wordPairwiseSum? (I : Interchange) (a : ℕ → I.Word) (n : ℕ) : Option ℚ :=
   wordSumTree? I a (pairwiseTree 0 n)
 
-private def mulResults (F : Format) (a b : Option ℚ) : Option ℚ := do
+def mulResults (F : Format) (a b : Option ℚ) : Option ℚ := do
   let x ← a
   let y ← b
   roundNearest? F (x * y)

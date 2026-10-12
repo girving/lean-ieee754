@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.Nearest
+module
+
+public import FP.IEEE.Spec.Nearest
+
+@[expose] public section
+
 
 /-! Mode-parametric real rounding and IEEE range-event predicates.
 Overflow and after-rounding tininess use precision rounding with no exponent

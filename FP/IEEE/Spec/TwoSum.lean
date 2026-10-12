@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.Arithmetic
+module
+
+public import FP.IEEE.Spec.Arithmetic
+
+@[expose] public section
+
 
 /-! The classical six-operation TwoSum evaluation schedule, independently specified. -/
 namespace FP.IEEE.Spec

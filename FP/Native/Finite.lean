@@ -1,4 +1,9 @@
-import FP.Native.Unpack
+module
+
+public import FP.Native.Unpack
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.Native

@@ -1,5 +1,10 @@
-import FP.IEEE.Software.SqrtInteger
-import FP.IEEE.Software.TotalRound
+module
+
+public import FP.IEEE.Software.SqrtInteger
+public import FP.IEEE.Software.TotalRound
+
+@[expose] public section
+
 
 /-! Binary exponent selection and scaled square-root rounding. -/
 namespace FP.IEEE.Software

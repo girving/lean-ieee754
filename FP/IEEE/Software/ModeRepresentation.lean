@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Overflow
+module
+
+public import FP.IEEE.Software.Overflow
+
+@[expose] public section
+
 
 /-! Finite representability under the IEEE unbounded-exponent overflow test. -/
 namespace FP.IEEE.Software

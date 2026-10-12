@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedRangeCorollaries
+module
+
+public import FP.IEEE.Software.CompensatedRangeCorollaries
+
+section
+
 
 /-! Kernel certificates for whole domains, subnormal losses, and rejected bounds. -/
 set_option backward.isDefEq.respectTransparency false

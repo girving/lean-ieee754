@@ -1,5 +1,10 @@
-import FP.IEEE.Software.Conversion
-import FP.IEEE.Spec.MixedArithmetic
+module
+
+public import FP.IEEE.Software.Conversion
+public import FP.IEEE.Spec.MixedArithmetic
+
+@[expose] public section
+
 
 /-! Mixed-precision arithmetic without premature operand rounding. -/
 set_option backward.isDefEq.respectTransparency false

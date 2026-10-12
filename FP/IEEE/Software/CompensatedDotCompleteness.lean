@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedDotCertificate
+module
+
+public import FP.IEEE.Software.CompensatedDotCertificate
+
+@[expose] public section
+
 
 /-! Completeness from the actual finite Dot2 execution, without exact-product certificates. -/
 set_option backward.isDefEq.respectTransparency false

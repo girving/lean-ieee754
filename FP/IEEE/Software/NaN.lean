@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Comparison
+module
+
+public import FP.IEEE.Software.Comparison
+
+@[expose] public section
+
 
 /-! Deterministic NaN construction and operand propagation. Operation-specific
 invalid conditions (such as zero times infinity) remain the caller's responsibility. -/

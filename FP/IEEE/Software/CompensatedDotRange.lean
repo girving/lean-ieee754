@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedDotBounds
+module
+
+public import FP.IEEE.Software.CompensatedDotBounds
+
+@[expose] public section
+
 
 /-! Analytical operation-range conditions and exact-product specializations for Dot2. -/
 set_option backward.isDefEq.respectTransparency false

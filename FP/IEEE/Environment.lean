@@ -1,4 +1,9 @@
-import FP.Basic
+module
+
+public import FP.Basic
+
+@[expose] public section
+
 
 /-! Explicit default-handling state. Flags are sticky, operation-local flags
 are distinguished from saved state, and no host floating-point environment is used. -/

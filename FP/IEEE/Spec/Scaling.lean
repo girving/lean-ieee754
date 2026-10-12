@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.Conversion
+module
+
+public import FP.IEEE.Spec.Conversion
+
+@[expose] public section
+
 
 /-! Independent real contract for power-of-two scaling. -/
 namespace FP.IEEE.Spec

@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedDotCompleteness
+module
+
+public import FP.IEEE.Software.CompensatedDotCompleteness
+
+@[expose] public section
+
 
 /-! End-to-end Dot2 bounds, backward interpretations, and certified enclosures. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,6 +1,11 @@
-import FP.IEEE.InnerProduct
-import FP.IEEE.Representation
-import FP.MixedBackward
+module
+
+public import FP.IEEE.InnerProduct
+public import FP.IEEE.Representation
+public import FP.MixedBackward
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.IEEE.Format

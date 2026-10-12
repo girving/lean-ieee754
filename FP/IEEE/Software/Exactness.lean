@@ -1,5 +1,10 @@
-import FP.IEEE.Software.Widening
-import FP.IEEE.Spec.Directed
+module
+
+public import FP.IEEE.Software.Widening
+public import FP.IEEE.Spec.Directed
+
+@[expose] public section
+
 
 /-! Representable range bounds and exactness certificates for actual result words. -/
 namespace FP.IEEE.Software

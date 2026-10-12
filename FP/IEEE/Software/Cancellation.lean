@@ -1,5 +1,10 @@
-import FP.IEEE.Roundoff
-import FP.IEEE.Software.TwoSum
+module
+
+public import FP.IEEE.Roundoff
+public import FP.IEEE.Software.TwoSum
+
+@[expose] public section
+
 
 /-! Exact cancellation and representable roundoff for executable IEEE words. -/
 set_option backward.isDefEq.respectTransparency false

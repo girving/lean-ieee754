@@ -1,5 +1,10 @@
-import FP.IEEE.Projection
-import FP.IEEE.Environment
+module
+
+public import FP.IEEE.Projection
+public import FP.IEEE.Environment
+
+@[expose] public section
+
 
 /-! Classification and comparison over all raw encodings. NaNs are unordered,
 zero signs compare equal, and exception behavior is explicit. -/

@@ -1,4 +1,9 @@
-import FP.IEEE.Sterbenz
+module
+
+public import FP.IEEE.Sterbenz
+
+@[expose] public section
+
 
 /-! Representability of the exact rounding error of binary addition. -/
 noncomputable section

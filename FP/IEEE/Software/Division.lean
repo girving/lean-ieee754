@@ -1,5 +1,10 @@
-import FP.IEEE.Software.MixedArithmetic
-import FP.IEEE.Spec.Division
+module
+
+public import FP.IEEE.Software.MixedArithmetic
+public import FP.IEEE.Spec.Division
+
+@[expose] public section
+
 
 /-! Total exact-rational division followed by one destination rounding. -/
 set_option backward.isDefEq.respectTransparency false

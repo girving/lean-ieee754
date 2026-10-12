@@ -1,4 +1,9 @@
-import FP.Native.Canonical
+module
+
+public import FP.Native.Canonical
+
+@[expose] public section
+
 
 /-! Native rounding with arbitrary exact/inexact accuracy information.
 Division and square root can use these results once their quotient/remainder or

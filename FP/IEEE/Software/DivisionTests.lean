@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Division
+module
+
+public import FP.IEEE.Software.Division
+
+section
+
 
 /-! Kernel regressions for total same-format and mixed-format division. -/
 set_option backward.isDefEq.respectTransparency false

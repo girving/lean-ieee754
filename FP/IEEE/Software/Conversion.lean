@@ -1,5 +1,10 @@
-import FP.IEEE.Software.Arithmetic
-import FP.IEEE.Spec.Conversion
+module
+
+public import FP.IEEE.Software.Arithmetic
+public import FP.IEEE.Spec.Conversion
+
+@[expose] public section
+
 
 /-! Cross-format conversion, with no host floating-point operations. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,4 +1,9 @@
-import FP.IEEE.Datum
+module
+
+public import FP.IEEE.Datum
+
+@[expose] public section
+
 
 namespace FP.IEEE.Interchange.Datum
 

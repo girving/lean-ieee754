@@ -1,4 +1,9 @@
-import FP.IEEE.Software.ProductBounds
+module
+
+public import FP.IEEE.Software.ProductBounds
+
+section
+
 
 /-! Kernel boundary regressions for exact and inexact FMA product residuals. -/
 set_option backward.isDefEq.respectTransparency false

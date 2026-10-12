@@ -1,4 +1,9 @@
-import FP.Basic
+module
+
+public import FP.Basic
+
+@[expose] public section
+
 
 /-! Sequential multiply-then-add inner products (no fused multiply-add).
 The accumulator starts at zero. The bound `gamma u (2*n)` is deliberately

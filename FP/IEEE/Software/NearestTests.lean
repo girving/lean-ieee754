@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Nearest
+module
+
+public import FP.IEEE.Software.Nearest
+
+section
+
 
 /-! Kernel-checked encoding and exception boundaries for total nearest-even rounding. -/
 set_option backward.isDefEq.respectTransparency false

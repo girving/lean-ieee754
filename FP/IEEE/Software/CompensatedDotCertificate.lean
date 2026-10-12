@@ -1,6 +1,11 @@
-import FP.IEEE.Software.CompensatedDot
-import FP.DotCompensation
-import FP.Range.Interval
+module
+
+public import FP.IEEE.Software.CompensatedDot
+public import FP.DotCompensation
+public import FP.Range.Interval
+
+@[expose] public section
+
 
 /-! Finite-execution certificates for Dot2. Product residuals may be inexact;
 local rational accounting records their actual defects. -/

@@ -1,6 +1,11 @@
-import FP.Native.Bridge
-import FP.IEEE.Summation
-import FP.Range.Checker
+module
+
+public import FP.Native.Bridge
+public import FP.IEEE.Summation
+public import FP.Range.Checker
+
+@[expose] public section
+
 
 namespace FP.Native
 

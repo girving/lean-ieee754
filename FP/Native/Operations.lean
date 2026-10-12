@@ -1,4 +1,9 @@
-import FP.Native.Finite
+module
+
+public import FP.Native.Finite
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.Native

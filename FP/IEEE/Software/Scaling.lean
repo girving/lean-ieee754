@@ -1,5 +1,10 @@
-import FP.IEEE.Software.Exactness
-import FP.IEEE.Spec.Scaling
+module
+
+public import FP.IEEE.Software.Exactness
+public import FP.IEEE.Spec.Scaling
+
+@[expose] public section
+
 
 /-! Exact power-of-two scaling and certified normalization of finite inputs. -/
 set_option backward.isDefEq.respectTransparency false

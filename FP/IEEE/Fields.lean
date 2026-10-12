@@ -1,4 +1,9 @@
-import FP.IEEE.Encoding
+module
+
+public import FP.IEEE.Encoding
+
+@[expose] public section
+
 
 /-! Lossless binary interchange fields. Unlike the finite real projection,
 these functions preserve every encoding, including signed zeros and NaNs. -/

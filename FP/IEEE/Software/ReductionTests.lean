@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Reductions
+module
+
+public import FP.IEEE.Software.Reductions
+
+section
+
 
 /-! Executable checks and certificate-to-theorem examples without native Float
 operations. Real error bounds are obtained from proved refinements, not tests. -/

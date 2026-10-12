@@ -1,4 +1,9 @@
-import FP.MixedError
+module
+
+public import FP.MixedError
+
+@[expose] public section
+
 
 /-! Error accounting for a high accumulator plus a rounded correction accumulator.
 The correction bound depends on the mass of the recovered low parts. -/

@@ -1,5 +1,10 @@
-import FP.IEEE.Software.CompensatedCompleteness
-import FP.CompensationInput
+module
+
+public import FP.IEEE.Software.CompensatedCompleteness
+public import FP.CompensationInput
+
+@[expose] public section
+
 
 /-! Second-order IEEE compensated-summation bounds from the input magnitudes. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,6 +1,11 @@
-import FP.IEEE.Software.RangeOperations
-import FP.Range.CompensatedBounds
-import FP.IEEE.Software.CompensatedDotList
+module
+
+public import FP.IEEE.Software.RangeOperations
+public import FP.Range.CompensatedBounds
+public import FP.IEEE.Software.CompensatedDotList
+
+@[expose] public section
+
 
 /-! Input-domain certificates for the actual total online Dot2 execution. -/
 set_option backward.isDefEq.respectTransparency false

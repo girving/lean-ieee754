@@ -1,4 +1,9 @@
-import FP.IEEE.Format
+module
+
+public import FP.IEEE.Format
+
+@[expose] public section
+
 
 /-! Range and representability of the exact IEEE rounding function. -/
 noncomputable section

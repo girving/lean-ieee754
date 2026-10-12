@@ -1,5 +1,10 @@
-import FP.IEEE.Software.IntegerRound
-import FP.IEEE.Projection
+module
+
+public import FP.IEEE.Software.IntegerRound
+public import FP.IEEE.Projection
+
+@[expose] public section
+
 
 /-! Executable binary grid selection and scaled rational rounding. The nearest-
 even specialization refines the existing finite-value specification exactly.

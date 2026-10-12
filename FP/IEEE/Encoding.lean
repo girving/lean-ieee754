@@ -1,4 +1,9 @@
-import FP.IEEE.Representation
+module
+
+public import FP.IEEE.Representation
+
+@[expose] public section
+
 
 /-! Binary interchange bit fields and their exact finite real values.
 All-ones exponents (infinities and NaNs) have no finite real projection.

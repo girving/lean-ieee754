@@ -1,4 +1,9 @@
-import FP.IEEE.Software.FMA
+module
+
+public import FP.IEEE.Software.FMA
+
+section
+
 
 /-! Kernel regressions distinguishing fused arithmetic from separate operations. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.Arithmetic
+module
+
+public import FP.IEEE.Spec.Arithmetic
+
+@[expose] public section
+
 
 /-! Binary format conversion, with the project's high-bit NaN payload alignment.
 Alignment is a binding choice; the IEEE standard does not fix a unique payload mapping. -/

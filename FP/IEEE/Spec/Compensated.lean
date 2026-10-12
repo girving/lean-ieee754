@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.TwoSum
+module
+
+public import FP.IEEE.Spec.TwoSum
+
+@[expose] public section
+
 
 /-! IEEE evaluation relations for online compensated summation. -/
 namespace FP.IEEE.Spec

@@ -1,4 +1,9 @@
-import FP.Native.Bridge
+module
+
+public import FP.Native.Bridge
+
+@[expose] public section
+
 
 /-! Native subtraction, reduced to the already verified unpacked addition.
 The packed refinement retains the explicit finite/nonoverflow qualifications. -/

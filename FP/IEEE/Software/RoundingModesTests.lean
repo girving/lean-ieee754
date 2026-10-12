@@ -1,4 +1,9 @@
-import FP.IEEE.Software.TotalRound
+module
+
+public import FP.IEEE.Software.TotalRound
+
+section
+
 
 /-! Kernel-evaluated all-mode regressions. These supplement the universal
 refinement theorems and cover mode/sign-dependent range boundaries. -/

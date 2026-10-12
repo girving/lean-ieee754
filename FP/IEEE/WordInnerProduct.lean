@@ -1,5 +1,10 @@
-import FP.IEEE.Encoding
-import FP.IEEE.InnerProduct
+module
+
+public import FP.IEEE.Encoding
+public import FP.IEEE.InnerProduct
+
+@[expose] public section
+
 
 /-! Inner products of actual binary32/binary64 bit patterns, under the explicit
 IEEE finite-value specification. This is not a bridge to native `Float` externs.

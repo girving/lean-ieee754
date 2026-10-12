@@ -1,6 +1,11 @@
-import FP.Range.Compensated
-import FP.IEEE.Software.CompensatedRange
-import FP.IEEE.Software.CompensatedDotRange
+module
+
+public import FP.Range.Compensated
+public import FP.IEEE.Software.CompensatedRange
+public import FP.IEEE.Software.CompensatedDotRange
+
+@[expose] public section
+
 
 /-! Sound interval transformers for the actual IEEE compensated operations. -/
 set_option backward.isDefEq.respectTransparency false

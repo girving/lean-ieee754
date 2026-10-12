@@ -1,6 +1,11 @@
-import FP.IEEE.Software.ProductBounds
-import FP.IEEE.Software.TwoSumExact
-import FP.IEEE.Spec.CompensatedDot
+module
+
+public import FP.IEEE.Software.ProductBounds
+public import FP.IEEE.Software.TwoSumExact
+public import FP.IEEE.Spec.CompensatedDot
+
+@[expose] public section
+
 
 /-! Total online Dot2 execution and operation-local sticky flags. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,4 +1,9 @@
-import FP.Basic
+module
+
+public import FP.Basic
+
+@[expose] public section
+
 
 /-! Mixed absolute/relative errors and denominator-free error accumulation. -/
 noncomputable section

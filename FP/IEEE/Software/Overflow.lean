@@ -1,4 +1,9 @@
-import FP.IEEE.Software.RoundingModes
+module
+
+public import FP.IEEE.Software.RoundingModes
+
+@[expose] public section
+
 
 /-! Default overflow delivery for all rounding modes. This handler assumes its
 caller has detected overflow; the unconditional result/flag theorem does not

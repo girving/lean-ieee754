@@ -1,5 +1,10 @@
-import FP.IEEE.Software.Nearest
-import FP.IEEE.Spec.RoundingModes
+module
+
+public import FP.IEEE.Software.Nearest
+public import FP.IEEE.Spec.RoundingModes
+
+@[expose] public section
+
 
 /-! All-mode rational/real refinement, directed lattice extremality, and
 unbounded-exponent range-event classification. -/

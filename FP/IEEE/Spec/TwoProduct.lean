@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.FMA
+module
+
+public import FP.IEEE.Spec.FMA
+
+@[expose] public section
+
 
 /-! Independent multiply, quiet-negate, and FMA schedule for TwoProduct. -/
 namespace FP.IEEE.Spec

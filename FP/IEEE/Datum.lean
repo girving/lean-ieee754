@@ -1,4 +1,9 @@
-import FP.IEEE.Fields
+module
+
+public import FP.IEEE.Fields
+
+@[expose] public section
+
 
 /-! A total, lossless view of IEEE binary encodings. Constructor invariants rule
 out zero subnormal significands, reserved normal exponents, and zero NaNs. -/

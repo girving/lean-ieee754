@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.MixedArithmetic
+module
+
+public import FP.IEEE.Spec.MixedArithmetic
+
+@[expose] public section
+
 
 /-! Total binary division, with independent source/destination formats.
 In particular, infinity divided by zero is exact infinity without divideByZero. -/

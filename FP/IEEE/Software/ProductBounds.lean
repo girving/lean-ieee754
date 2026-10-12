@@ -1,6 +1,11 @@
-import FP.IEEE.ProductRoundoff
-import FP.IEEE.Software.Cancellation
-import FP.IEEE.Spec.TwoProduct
+module
+
+public import FP.IEEE.ProductRoundoff
+public import FP.IEEE.Software.Cancellation
+public import FP.IEEE.Spec.TwoProduct
+
+@[expose] public section
+
 
 /-! Word-level exact and bounded TwoProduct guarantees, including residual underflow. -/
 set_option backward.isDefEq.respectTransparency false

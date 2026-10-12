@@ -1,4 +1,9 @@
-import FP.Compensation
+module
+
+public import FP.Compensation
+
+@[expose] public section
+
 
 /-! Input-magnitude bounds for compensated summation, including absolute error. -/
 noncomputable section

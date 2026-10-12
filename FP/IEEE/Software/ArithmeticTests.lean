@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Arithmetic
+module
+
+public import FP.IEEE.Software.Arithmetic
+
+section
+
 
 /-! Kernel regressions for arithmetic class dispatch, signed zeros, payload
 selection, numerical boundaries, and sticky composition. -/

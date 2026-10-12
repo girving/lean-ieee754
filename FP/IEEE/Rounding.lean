@@ -1,5 +1,10 @@
-import FP.Basic
-import Mathlib.Data.Int.Log
+module
+
+public import FP.Basic
+public import Mathlib.Data.Int.Log
+
+@[expose] public section
+
 
 /-! Exact round-to-nearest, ties-to-even, over the reals. -/
 noncomputable section

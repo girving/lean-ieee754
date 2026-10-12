@@ -1,4 +1,9 @@
-import FP.IEEE.Software.TwoSumExact
+module
+
+public import FP.IEEE.Software.TwoSumExact
+
+section
+
 
 /-! General theorem applications and kernel regressions at IEEE TwoSum boundaries. -/
 set_option backward.isDefEq.respectTransparency false

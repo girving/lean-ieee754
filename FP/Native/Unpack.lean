@@ -1,5 +1,10 @@
-import FP.Native.Packing
-import FP.IEEE.Encoding
+module
+
+public import FP.Native.Packing
+public import FP.IEEE.Encoding
+
+@[expose] public section
+
 
 noncomputable section
 open scoped Classical

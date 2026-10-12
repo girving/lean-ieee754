@@ -1,5 +1,10 @@
-import FP.IEEE.Format
-import FP.InnerProduct
+module
+
+public import FP.IEEE.Format
+public import FP.InnerProduct
+
+@[expose] public section
+
 
 /-! Backward stability for the finite-value semantics of IEEE binary32/binary64. -/
 noncomputable section

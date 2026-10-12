@@ -1,6 +1,11 @@
-import FP.Native.Summation
-import FP.Native.MixedDot
-import FP.IEEE.Boundaries
+module
+
+public import FP.Native.Summation
+public import FP.Native.MixedDot
+public import FP.IEEE.Boundaries
+
+@[expose] public section
+
 
 /-! Kernel-checked certificate and boundary examples for the public APIs. -/
 namespace FP.Examples

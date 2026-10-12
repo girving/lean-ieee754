@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedInput
+module
+
+public import FP.IEEE.Software.CompensatedInput
+
+@[expose] public section
+
 
 /-! Explicit operation-range conditions for complete compensated summation. -/
 set_option backward.isDefEq.respectTransparency false

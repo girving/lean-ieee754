@@ -1,5 +1,10 @@
-import FP.IEEE.Software.ProductResidual
-import FP.IEEE.Spec.TwoSum
+module
+
+public import FP.IEEE.Software.ProductResidual
+public import FP.IEEE.Spec.TwoSum
+
+@[expose] public section
+
 
 /-! Classical six-operation TwoSum and a sufficient exactness certificate.
 The rounded sum and virtual second addend may be inexact; the four reconstruction

@@ -1,5 +1,10 @@
-import FP.IEEE.Software.MixedArithmetic
-import FP.IEEE.Software.Widening
+module
+
+public import FP.IEEE.Software.MixedArithmetic
+public import FP.IEEE.Software.Widening
+
+section
+
 
 /-! Kernel regressions for format conversion and mixed source/destination arithmetic. -/
 set_option backward.isDefEq.respectTransparency false

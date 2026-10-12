@@ -1,5 +1,10 @@
-import FP.IEEE.Rounding
-import Init.Data.Float.Model
+module
+
+public import FP.IEEE.Rounding
+public import Init.Data.Float.Model
+
+@[expose] public section
+
 
 /-! Relating Lean's native guard/round/sticky machinery to real nearest-even rounding. -/
 noncomputable section

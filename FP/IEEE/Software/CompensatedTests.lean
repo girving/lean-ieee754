@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedExecution
+module
+
+public import FP.IEEE.Software.CompensatedExecution
+
+section
+
 
 /-! Kernel regressions for TwoSum and end-to-end compensated summation certificates. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,5 +1,10 @@
-import FP.IEEE.Software.RangeOperations
-import FP.Range.CompensatedBounds
+module
+
+public import FP.IEEE.Software.RangeOperations
+public import FP.Range.CompensatedBounds
+
+@[expose] public section
+
 
 /-! Whole-domain interval and accuracy guarantees for compensated summation. -/
 set_option backward.isDefEq.respectTransparency false

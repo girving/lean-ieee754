@@ -1,6 +1,11 @@
-import FP.IEEE.Software.Arithmetic
-import FP.IEEE.Software.Reductions
-import FP.IEEE.Spec.Reductions
+module
+
+public import FP.IEEE.Software.Arithmetic
+public import FP.IEEE.Software.Reductions
+public import FP.IEEE.Spec.Reductions
+
+@[expose] public section
+
 
 /-! Total scheduled reductions on interchange words. Computation continues
 through exceptional results; every operation's flags are accumulated. -/

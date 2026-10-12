@@ -1,5 +1,10 @@
-import FP.IEEE.Software.FiniteEncoding
-import FP.IEEE.Spec.Nearest
+module
+
+public import FP.IEEE.Software.FiniteEncoding
+public import FP.IEEE.Spec.Nearest
+
+@[expose] public section
+
 
 /-! Total executable nearest-even rounding from exact rational inputs to IEEE
 result words and default exception flags. No native Float operation is used. -/
@@ -13,12 +18,12 @@ def precisionRound (F : Format) (x : ℚ) : ℚ :=
 def tinyAfter (F : Format) (x : ℚ) : Bool :=
   decide (0 < |precisionRound F x| ∧ |precisionRound F x| < (2 : ℚ)^F.emin)
 
-private def finiteRoundingFlags (F : Format) (x y : ℚ) : Flags
+def finiteRoundingFlags (F : Format) (x y : ℚ) : Flags
   | .invalid | .divideByZero | .overflow => false
   | .inexact => decide (y ≠ x)
   | .underflow => decide (y ≠ x) && tinyAfter F x
 
-private def overflowRoundingFlags : Flags
+def overflowRoundingFlags : Flags
   | .overflow | .inexact => true
   | _ => false
 

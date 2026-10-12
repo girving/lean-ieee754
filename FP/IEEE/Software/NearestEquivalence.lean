@@ -1,4 +1,9 @@
-import FP.IEEE.Software.TotalRound
+module
+
+public import FP.IEEE.Software.TotalRound
+
+@[expose] public section
+
 
 /-! Equivalence of the midpoint overflow threshold and the IEEE
 unbounded-exponent test, including both signs of the exact midpoint. -/

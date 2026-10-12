@@ -1,4 +1,9 @@
-import FP.IEEE.Roundoff
+module
+
+public import FP.IEEE.Roundoff
+
+@[expose] public section
+
 
 /-! Order bounds and lattice preservation for nearest-even binary rounding. -/
 noncomputable section

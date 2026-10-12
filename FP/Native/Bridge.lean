@@ -1,4 +1,9 @@
-import FP.Native.Operations
+module
+
+public import FP.Native.Operations
+
+@[expose] public section
+
 
 /-! Equivalence for Lean's native floating-point operations on finite values.
 The proofs unfold the native logical model; they do not use native evaluation. -/

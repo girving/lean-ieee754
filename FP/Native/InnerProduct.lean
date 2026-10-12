@@ -1,5 +1,10 @@
-import FP.Native.Bridge
-import FP.IEEE.InnerProduct
+module
+
+public import FP.Native.Bridge
+public import FP.IEEE.InnerProduct
+
+@[expose] public section
+
 
 /-! Sequential native inner products, their specification equivalence, and
 componentwise backward stability. Multiplication and addition round separately. -/

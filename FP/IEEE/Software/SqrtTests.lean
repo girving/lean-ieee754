@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Sqrt
+module
+
+public import FP.IEEE.Software.Sqrt
+
+section
+
 
 /-! Kernel checks for irrational rounding, signed specials and mixed-format range events. -/
 set_option backward.isDefEq.respectTransparency false

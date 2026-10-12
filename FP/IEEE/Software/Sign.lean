@@ -1,5 +1,10 @@
-import FP.IEEE.Projection
-import FP.IEEE.Environment
+module
+
+public import FP.IEEE.Projection
+public import FP.IEEE.Environment
+
+@[expose] public section
+
 
 /-! Executable quiet sign operations on raw encodings. They never canonicalize
 NaNs or raise invalid, including for signaling NaN inputs. -/

@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Exactness
+module
+
+public import FP.IEEE.Software.Exactness
+
+@[expose] public section
+
 
 /-! Adjacent IEEE values via exact half-minimum-spacing probes and directed rounding.
 No enumeration of the word space or host floating-point operation is used. -/

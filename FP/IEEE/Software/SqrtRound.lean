@@ -1,4 +1,9 @@
-import FP.IEEE.Software.SqrtScaled
+module
+
+public import FP.IEEE.Software.SqrtScaled
+
+@[expose] public section
+
 
 /-! Total square-root rounding, including unbounded-exponent range flags. -/
 namespace FP.IEEE.Software

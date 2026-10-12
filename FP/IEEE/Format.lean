@@ -1,4 +1,9 @@
-import FP.IEEE.Rounding
+module
+
+public import FP.IEEE.Rounding
+
+@[expose] public section
+
 
 /-! Binary interchange formats and their exact real-value rounding semantics.
 `round?` is the finite projection: `none` denotes overflow to signed infinity.

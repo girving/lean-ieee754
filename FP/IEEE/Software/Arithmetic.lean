@@ -1,6 +1,11 @@
-import FP.IEEE.Software.NearestEquivalence
-import FP.IEEE.Software.NaN
-import FP.IEEE.Spec.Arithmetic
+module
+
+public import FP.IEEE.Software.NearestEquivalence
+public import FP.IEEE.Software.NaN
+public import FP.IEEE.Spec.Arithmetic
+
+@[expose] public section
+
 
 /-! Executable total same-format arithmetic. All modes, operand classes,
 NaN payloads, signed zeros, and operation-local flags are covered. -/

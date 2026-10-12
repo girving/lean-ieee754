@@ -1,4 +1,9 @@
-import FP.IEEE.WordInnerProduct
+module
+
+public import FP.IEEE.WordInnerProduct
+
+@[expose] public section
+
 
 /-! Boundary results explain why the range hypotheses are necessary. -/
 noncomputable section

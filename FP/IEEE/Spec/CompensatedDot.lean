@@ -1,5 +1,10 @@
-import FP.IEEE.Spec.TwoProduct
-import FP.IEEE.Spec.TwoSum
+module
+
+public import FP.IEEE.Spec.TwoProduct
+public import FP.IEEE.Spec.TwoSum
+
+@[expose] public section
+
 
 /-! The zero-started online Dot2 schedule, independently specified. -/
 namespace FP.IEEE.Spec

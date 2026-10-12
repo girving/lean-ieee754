@@ -1,6 +1,11 @@
-import FP.IEEE.Software.CompensatedSum
-import FP.IEEE.Spec.Compensated
-import FP.Range.Interval
+module
+
+public import FP.IEEE.Software.CompensatedSum
+public import FP.IEEE.Spec.Compensated
+public import FP.Range.Interval
+
+@[expose] public section
+
 
 /-! Total execution and transfer from numerical certificates to that execution. -/
 set_option backward.isDefEq.respectTransparency false

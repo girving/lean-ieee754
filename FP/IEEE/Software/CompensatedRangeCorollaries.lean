@@ -1,5 +1,10 @@
-import FP.IEEE.Software.CompensatedRangeCertificate
-import FP.IEEE.Software.CompensatedDotRangeCertificate
+module
+
+public import FP.IEEE.Software.CompensatedRangeCertificate
+public import FP.IEEE.Software.CompensatedDotRangeCertificate
+
+@[expose] public section
+
 
 /-! Real-decoding and paired-list entry points for automatic range proofs. -/
 set_option backward.isDefEq.respectTransparency false

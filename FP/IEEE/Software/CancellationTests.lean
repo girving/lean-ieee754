@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Cancellation
+module
+
+public import FP.IEEE.Software.Cancellation
+
+section
+
 
 /-! Kernel regressions across every rounding mode and both interchange formats. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,5 +1,10 @@
-import FP.IEEE.Software.MixedArithmetic
-import FP.IEEE.Spec.FMA
+module
+
+public import FP.IEEE.Software.MixedArithmetic
+public import FP.IEEE.Spec.FMA
+
+@[expose] public section
+
 
 /-! Executable FMA with heterogeneous sources and one destination rounding. -/
 set_option backward.isDefEq.respectTransparency false

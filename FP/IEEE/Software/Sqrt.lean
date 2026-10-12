@@ -1,6 +1,11 @@
-import FP.IEEE.Software.SqrtRound
-import FP.IEEE.Software.Conversion
-import FP.IEEE.Spec.Sqrt
+module
+
+public import FP.IEEE.Software.SqrtRound
+public import FP.IEEE.Software.Conversion
+public import FP.IEEE.Spec.Sqrt
+
+@[expose] public section
+
 
 /-! Total square root with independently specified real-value and flag semantics. -/
 set_option backward.isDefEq.respectTransparency false

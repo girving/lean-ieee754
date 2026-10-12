@@ -1,4 +1,9 @@
-import FP.IEEE.Software.Conversion
+module
+
+public import FP.IEEE.Software.Conversion
+
+@[expose] public section
+
 
 /-! Exact binary32-to-binary64 finite widening in every rounding mode. -/
 set_option backward.isDefEq.respectTransparency false

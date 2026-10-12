@@ -1,6 +1,11 @@
-import FP.IEEE.Software.FMA
-import FP.IEEE.Software.Sign
-import FP.IEEE.Software.Exactness
+module
+
+public import FP.IEEE.Software.FMA
+public import FP.IEEE.Software.Sign
+public import FP.IEEE.Software.Exactness
+
+@[expose] public section
+
 
 /-! FMA-based product residuals with a checked error-free decomposition certificate.
 The rounded product may be inexact. Only the residual must be computed exactly. -/

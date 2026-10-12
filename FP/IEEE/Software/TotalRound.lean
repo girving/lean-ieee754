@@ -1,4 +1,9 @@
-import FP.IEEE.Software.ModeRepresentation
+module
+
+public import FP.IEEE.Software.ModeRepresentation
+
+@[expose] public section
+
 
 /-! Total all-mode rounding to interchange words, including default flags.
 The input is an exact rational; arithmetic special operands are handled by

@@ -1,5 +1,10 @@
-import FP.IEEE.Spec.Arithmetic
-import FP.Summation
+module
+
+public import FP.IEEE.Spec.Arithmetic
+public import FP.Summation
+
+@[expose] public section
+
 
 /-! Evaluation relations for explicit arithmetic schedules. These describe
 compositions of IEEE operations, not the optional IEEE Clause 9 reduction APIs. -/

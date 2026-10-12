@@ -1,5 +1,10 @@
-import FP.IEEE.Software.Exactness
-import FP.Range.Interval
+module
+
+public import FP.IEEE.Software.Exactness
+public import FP.Range.Interval
+
+@[expose] public section
+
 
 /-! Outward-rounded IEEE word intervals. Failure denotes an unavailable finite enclosure. -/
 namespace FP.IEEE.Software

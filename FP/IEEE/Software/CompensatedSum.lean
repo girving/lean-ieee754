@@ -1,5 +1,10 @@
-import FP.IEEE.Software.TwoSum
-import FP.Compensation
+module
+
+public import FP.IEEE.Software.TwoSum
+public import FP.Compensation
+
+@[expose] public section
+
 
 /-! Online compensated summation using certified classical TwoSum steps.
 The certificate accounts for correction-addition errors rather than requiring

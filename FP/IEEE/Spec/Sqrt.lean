@@ -1,5 +1,10 @@
-import FP.IEEE.Spec.Conversion
-import FP.IEEE.Spec.RealRounding
+module
+
+public import FP.IEEE.Spec.Conversion
+public import FP.IEEE.Spec.RealRounding
+
+@[expose] public section
+
 
 /-! Independent real square-root contract, including signed zero and exceptional operands. -/
 namespace FP.IEEE.Spec

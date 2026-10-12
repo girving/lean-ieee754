@@ -1,6 +1,11 @@
-import FP.Native.Accuracy
-import Init.Data.Float.Model.Unpacked.Operations.Div
-import Init.Data.Float.Model.Unpacked.Operations.Sqrt
+module
+
+public import FP.Native.Accuracy
+public import Init.Data.Float.Model.Unpacked.Operations.Div
+public import Init.Data.Float.Model.Unpacked.Operations.Sqrt
+
+@[expose] public section
+
 
 /-! Exact real meanings of the residual information consumed by native division
 and square root. The complete operator refinement still needs the core exponent

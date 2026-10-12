@@ -1,7 +1,12 @@
-import FP.MixedError
-import FP.MixedBackward
-import Mathlib.Data.List.Range
-import Mathlib.Data.Nat.Log
+module
+
+public import FP.MixedError
+public import FP.MixedBackward
+public import Mathlib.Data.List.Range
+public import Mathlib.Data.Nat.Log
+
+@[expose] public section
+
 
 /-! Addition schedules shared by specifications, native evaluators, and certificates. -/
 namespace FP

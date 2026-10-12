@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedRange
+module
+
+public import FP.IEEE.Software.CompensatedRange
+
+section
+
 
 /-! Kernel regressions for compensated-summation completeness and input bounds. -/
 set_option backward.isDefEq.respectTransparency false

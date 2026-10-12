@@ -1,5 +1,10 @@
-import FP.IEEE.TwoSumExact
-import FP.IEEE.Software.Cancellation
+module
+
+public import FP.IEEE.TwoSumExact
+public import FP.IEEE.Software.Cancellation
+
+@[expose] public section
+
 
 /-! General IEEE TwoSum exactness from finite inputs and the first two stages.
 The remaining four stages are proved exact; runtime reconstruction certificates

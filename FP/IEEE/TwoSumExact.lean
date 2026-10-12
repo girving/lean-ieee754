@@ -1,4 +1,9 @@
-import FP.IEEE.RoundingBounds
+module
+
+public import FP.IEEE.RoundingBounds
+
+@[expose] public section
+
 
 /-! Exact reconstruction in the classical six-operation binary TwoSum algorithm. -/
 noncomputable section

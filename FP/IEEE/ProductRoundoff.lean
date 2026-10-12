@@ -1,4 +1,9 @@
-import FP.IEEE.RoundingBounds
+module
+
+public import FP.IEEE.RoundingBounds
+
+@[expose] public section
+
 
 /-! Exact product residuals above the lower lattice boundary, and a sharp
 absolute defect bound when the FMA residual itself must round. -/

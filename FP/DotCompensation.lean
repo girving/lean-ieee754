@@ -1,5 +1,10 @@
-import FP.CompensationInput
-import FP.MixedBackward
+module
+
+public import FP.CompensationInput
+public import FP.MixedBackward
+
+@[expose] public section
+
 
 /-! Online Dot2 accounting, with a separate budget for inexact product residuals. -/
 noncomputable section

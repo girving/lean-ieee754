@@ -1,4 +1,9 @@
-import FP.IEEE.Software.ScaledRound
+module
+
+public import FP.IEEE.Software.ScaledRound
+
+@[expose] public section
+
 
 /-! Exact encoding of representable rational values. Normalization uses integer
 shifts; the reference encoder searches only the finite exponent range, never

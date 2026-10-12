@@ -1,6 +1,11 @@
-import FP.Range.Interval
-import FP.Summation
-import FP.InnerProduct
+module
+
+public import FP.Range.Interval
+public import FP.Summation
+public import FP.InnerProduct
+
+@[expose] public section
+
 
 /-! Executable certificates for addition trees and sequential dot products. -/
 namespace FP.Range

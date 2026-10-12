@@ -1,5 +1,10 @@
-import FP.IEEE.Spec.RoundingModes
-import FP.IEEE.Representation
+module
+
+public import FP.IEEE.Spec.RoundingModes
+public import FP.IEEE.Representation
+
+@[expose] public section
+
 
 /-! Finite representability under the IEEE unbounded-exponent overflow test. -/
 namespace FP.IEEE.Spec

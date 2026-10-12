@@ -1,4 +1,9 @@
-import FP.Range.Compensated
+module
+
+public import FP.Range.Compensated
+
+@[expose] public section
+
 
 /-! Uniform rational accuracy bounds for whole input domains. -/
 namespace FP.Range

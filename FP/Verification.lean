@@ -1,25 +1,30 @@
-import FP.IEEE.Boundaries
-import FP.Native.InnerProduct
-import FP.MixedBoundaries
-import FP.IEEE.Software.Boundaries
-import FP.IEEE.Software.ReductionTests
-import FP.IEEE.Software.NearestTests
-import FP.IEEE.Software.RoundingModesTests
-import FP.IEEE.Software.NearestEquivalence
-import FP.IEEE.Software.ArithmeticTests
-import FP.IEEE.Software.TotalReductionTests
-import FP.IEEE.Software.ConversionTests
-import FP.IEEE.Software.DivisionTests
-import FP.IEEE.Software.FMATests
-import FP.IEEE.Software.SqrtTests
-import FP.IEEE.Software.NumericalToolsTests
-import FP.IEEE.Software.CompensatedTests
-import FP.IEEE.Software.CancellationTests
-import FP.IEEE.Software.TwoSumExactTests
-import FP.IEEE.Software.CompensatedInputTests
-import FP.IEEE.Software.ProductBoundsTests
-import FP.IEEE.Software.CompensatedDotTests
-import FP.IEEE.Software.CompensatedRangeTests
+module
+
+public import FP.IEEE.Boundaries
+public import FP.Native.InnerProduct
+public import FP.MixedBoundaries
+public import FP.IEEE.Software.Boundaries
+public import FP.IEEE.Software.ReductionTests
+public import FP.IEEE.Software.NearestTests
+public import FP.IEEE.Software.RoundingModesTests
+public import FP.IEEE.Software.NearestEquivalence
+public import FP.IEEE.Software.ArithmeticTests
+public import FP.IEEE.Software.TotalReductionTests
+public import FP.IEEE.Software.ConversionTests
+public import FP.IEEE.Software.DivisionTests
+public import FP.IEEE.Software.FMATests
+public import FP.IEEE.Software.SqrtTests
+public import FP.IEEE.Software.NumericalToolsTests
+public import FP.IEEE.Software.CompensatedTests
+public import FP.IEEE.Software.CancellationTests
+public import FP.IEEE.Software.TwoSumExactTests
+public import FP.IEEE.Software.CompensatedInputTests
+public import FP.IEEE.Software.ProductBoundsTests
+public import FP.IEEE.Software.CompensatedDotTests
+public import FP.IEEE.Software.CompensatedRangeTests
+
+@[expose] public section
+
 
 /-! These guards fail the build if the principal results acquire extra axioms. -/
 

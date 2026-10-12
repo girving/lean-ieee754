@@ -1,7 +1,12 @@
-import FP.Native.InnerProduct
-import FP.MixedBackward
-import FP.IEEE.MixedDot
-import FP.Range.Checker
+module
+
+public import FP.Native.InnerProduct
+public import FP.MixedBackward
+public import FP.IEEE.MixedDot
+public import FP.Range.Checker
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.Native

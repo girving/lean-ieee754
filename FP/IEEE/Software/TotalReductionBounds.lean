@@ -1,4 +1,9 @@
-import FP.IEEE.Software.TotalReductions
+module
+
+public import FP.IEEE.Software.TotalReductions
+
+@[expose] public section
+
 
 /-! Numerical theorems for total word-valued reductions. Range certificates
 permit gradual underflow; pure relative backward results retain Safe traces. -/

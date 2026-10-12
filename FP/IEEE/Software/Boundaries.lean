@@ -1,8 +1,13 @@
-import FP.IEEE.Software.Sign
-import FP.IEEE.Software.NaN
-import FP.IEEE.Software.ScaledRound
-import FP.Native.Subtraction
-import FP.Native.Residuals
+module
+
+public import FP.IEEE.Software.Sign
+public import FP.IEEE.Software.NaN
+public import FP.IEEE.Software.ScaledRound
+public import FP.Native.Subtraction
+public import FP.Native.Residuals
+
+@[expose] public section
+
 
 /-! Kernel-checked regression cases for the total representation, quiet
 operations, explicit state, and executable rational rounding foundations. -/
@@ -11,14 +16,14 @@ set_option backward.isDefEq.respectTransparency false
 namespace FP.IEEE.Software.Tests
 open Interchange
 
-private def classes32 : List (Nat × Datum.Class) :=
+def classes32 : List (Nat × Datum.Class) :=
   [(0x7f800001, .signalingNaN), (0x7fc12345, .quietNaN),
    (0xff800000, .negativeInfinity), (0xbf800000, .negativeNormal),
    (0x80000001, .negativeSubnormal), (0x80000000, .negativeZero),
    (0, .positiveZero), (1, .positiveSubnormal),
    (0x3f800000, .positiveNormal), (0x7f800000, .positiveInfinity)]
 
-private def classes64 : List (Nat × Datum.Class) :=
+def classes64 : List (Nat × Datum.Class) :=
   [(0x7ff0000000000001, .signalingNaN), (0x7ff8123456789abc, .quietNaN),
    (0xfff0000000000000, .negativeInfinity), (0xbff0000000000000, .negativeNormal),
    (0x8000000000000001, .negativeSubnormal), (0x8000000000000000, .negativeZero),
@@ -121,7 +126,7 @@ theorem sticky_save_restore :
   decide +kernel
 
 /-- Exhaustive execution on a six-bit format: one sign, three exponent, two fraction bits. -/
-private def toy : Interchange :=
+def toy : Interchange :=
   ⟨⟨2, -2, 3, by decide⟩, 3, 3, by decide, by decide⟩
 
 private instance : toy.Valid := ⟨by decide, by decide⟩

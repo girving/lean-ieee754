@@ -1,4 +1,9 @@
-import FP.IEEE.Software.CompensatedDotList
+module
+
+public import FP.IEEE.Software.CompensatedDotList
+
+section
+
 
 /-! Online Dot2: kernel checks of words, defects, radii, and exceptional paths. -/
 set_option backward.isDefEq.respectTransparency false

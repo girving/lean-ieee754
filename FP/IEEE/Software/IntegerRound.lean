@@ -1,5 +1,10 @@
-import FP.IEEE.Environment
-import FP.IEEE.Rounding
+module
+
+public import FP.IEEE.Environment
+public import FP.IEEE.Rounding
+
+@[expose] public section
+
 
 /-! Executable rounding of exact rational numbers to the integer lattice.
 The correctness statements quantify over every integer candidate. This is the

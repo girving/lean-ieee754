@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.Conversion
+module
+
+public import FP.IEEE.Spec.Conversion
+
+@[expose] public section
+
 
 /-! Mixed source/destination arithmetic: the exact source values are combined
 before one rounding in the destination. NaN payload mapping is explicit. -/

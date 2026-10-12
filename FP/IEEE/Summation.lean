@@ -1,5 +1,10 @@
-import FP.Summation
-import FP.IEEE.Representation
+module
+
+public import FP.Summation
+public import FP.IEEE.Representation
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.IEEE.Format

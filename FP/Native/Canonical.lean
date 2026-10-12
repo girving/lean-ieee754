@@ -1,4 +1,9 @@
-import FP.Native.Normalize
+module
+
+public import FP.Native.Normalize
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.Native

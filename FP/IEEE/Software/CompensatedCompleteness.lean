@@ -1,5 +1,10 @@
-import FP.IEEE.Software.CompensatedExecution
-import FP.IEEE.Software.TwoSumExact
+module
+
+public import FP.IEEE.Software.CompensatedExecution
+public import FP.IEEE.Software.TwoSumExact
+
+@[expose] public section
+
 
 /-! Completeness of compensated-summation certificates from execution finiteness. -/
 set_option backward.isDefEq.respectTransparency false

@@ -1,4 +1,9 @@
-import FP.Native.Canonical
+module
+
+public import FP.Native.Canonical
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.Native

@@ -1,5 +1,10 @@
-import FP.Native.Rounding
-import FP.IEEE.Format
+module
+
+public import FP.Native.Rounding
+public import FP.IEEE.Format
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.Native

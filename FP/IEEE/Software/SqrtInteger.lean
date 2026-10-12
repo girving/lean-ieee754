@@ -1,6 +1,11 @@
-import FP.IEEE.Software.IntegerRound
-import FP.IEEE.Spec.RealRounding
-import Mathlib.Data.Nat.Sqrt
+module
+
+public import FP.IEEE.Software.IntegerRound
+public import FP.IEEE.Spec.RealRounding
+public import Mathlib.Data.Nat.Sqrt
+
+@[expose] public section
+
 
 /-! Square-root rounding using integer square root and exact squared-midpoint tests. -/
 namespace FP.IEEE.Software

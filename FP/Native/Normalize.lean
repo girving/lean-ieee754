@@ -1,5 +1,10 @@
-import FP.Native.Exponent
-import FP.IEEE.Representation
+module
+
+public import FP.Native.Exponent
+public import FP.IEEE.Representation
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP.Native

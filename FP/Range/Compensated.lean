@@ -1,5 +1,10 @@
-import FP.Range.Interval
-import FP.CompensationInput
+module
+
+public import FP.Range.Interval
+public import FP.CompensationInput
+
+@[expose] public section
+
 
 /-! Input-domain certificates for compensated sums and online Dot2.
 All executable quantities are rational; `none` means insufficient certification. -/

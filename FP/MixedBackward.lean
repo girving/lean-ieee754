@@ -1,5 +1,10 @@
-import FP.MixedError
-import FP.InnerProduct
+module
+
+public import FP.MixedError
+public import FP.InnerProduct
+
+@[expose] public section
+
 
 noncomputable section
 namespace FP

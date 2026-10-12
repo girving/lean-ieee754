@@ -1,5 +1,10 @@
-import FP.IEEE.Representation
-import FP.MixedError
+module
+
+public import FP.IEEE.Representation
+public import FP.MixedError
+
+@[expose] public section
+
 
 /-! Executable rational intervals. All soundness statements concern real values. -/
 namespace FP.Range

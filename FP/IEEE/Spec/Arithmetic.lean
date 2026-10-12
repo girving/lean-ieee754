@@ -1,4 +1,9 @@
-import FP.IEEE.Spec.RoundingModes
+module
+
+public import FP.IEEE.Spec.RoundingModes
+
+@[expose] public section
+
 
 /-! Total same-format add/subtract/multiply contracts, including Clause 6
 special results and the project's deterministic NaN selection policy. -/
