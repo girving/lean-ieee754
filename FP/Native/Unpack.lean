@@ -45,17 +45,11 @@ theorem unpack_canonical (S : Float.Model.Format) (w : BitVec S.numBits) (x : â„
 /-- Field-level equality of our binary decoder and the native unpacker. -/
 theorem unpack_mantissa_toNat (S : Float.Model.Format) (w : BitVec S.numBits) :
     (unpackMantissa w).toNat = w.toNat % 2 ^ S.mantissaBitsWithoutImplicit := by
-  simp only [unpackMantissa, BitVec.toNat_cast, BitVec.extractLsb_toNat, Nat.shiftRight_zero]
-  have := S.hm
-  congr 2
-  omega
+  simp only [unpackMantissa, BitVec.extractLsb'_toNat, Nat.shiftRight_zero]
 
 theorem unpack_exponent_toNat (S : Float.Model.Format) (w : BitVec S.numBits) :
     (unpackExponent w).toNat = (w.toNat / 2 ^ S.mantissaBitsWithoutImplicit) % 2 ^ S.exponentBits := by
-  simp only [unpackExponent, BitVec.toNat_cast, BitVec.extractLsb_toNat, Nat.shiftRight_eq_div_pow]
-  have := S.he
-  congr 2
-  omega
+  simp only [unpackExponent, BitVec.extractLsb'_toNat, Nat.shiftRight_eq_div_pow]
 
 theorem unpack_sign_zero_iff (S : Float.Model.Format) (w : BitVec S.numBits) :
     unpackSign w = 0#1 â†” w.getLsbD (S.exponentBits + S.mantissaBitsWithoutImplicit) = false := by
